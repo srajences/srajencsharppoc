@@ -1,0 +1,10 @@
+namespace SRAJENCSHARPPOC{
+public class Program{
+    public static void Main(string[]args){
+       /* SumOfTwoNumbers.CalculateSum();
+        PrimeNumber.IsPrime();
+        BasicArray.PrintArray();*/
+        StringReverse.Reverse();
+    }
+}
+}
