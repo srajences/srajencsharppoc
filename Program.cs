@@ -21,10 +21,22 @@ public class Program{
         et.Atmosphere();
         et.Rotate();
         ms.Atmosphere();
-        ms.Tempertaure();*/
+        ms.Tempertaure();
         Interview it = new Interview();
         it.HrRound();
         it.TechRound();
+        Cricket ck = new Cricket();
+        Football ft = new Football();
+        ck.Run();
+        ft.Run();
+        Employee e = new Employee();
+        e.SetName("Srajen");
+        e.setID(115);
+        Console.WriteLine("Name:"+e.GetName());
+        Console.WriteLine("ID:"+e.GetId());
+        e.setID(-20);*/
+        Sniper s = new Sniper(10,20);
+        Console.WriteLine("The range of gun is:"+s.range());
     }
 }
 }
