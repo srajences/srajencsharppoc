@@ -1,4 +1,7 @@
-namespace SRAJENCSHARPPOC{
+    public class ResponseDat
+{
+    public List<object>entries{get; set;}
+}
 public class Program{
     public static void Main(string[]args){
        /* SumOfTwoNumbers.CalculateSum();
@@ -34,9 +37,14 @@ public class Program{
         e.setID(115);
         Console.WriteLine("Name:"+e.GetName());
         Console.WriteLine("ID:"+e.GetId());
-        e.setID(-20);*/
+        e.setID(-20);
         Sniper s = new Sniper(10,20);
         Console.WriteLine("The range of gun is:"+s.range());
+        GetApiCall.GetApi();
+        PostApiCall.PostApi();
+        PutRequest.Put();
+        DeleteRequest.DeleteApi();*/
+        
     }
 }
-}
+
